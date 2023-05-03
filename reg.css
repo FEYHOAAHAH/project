@@ -1,0 +1,173 @@
+@font-face {
+    font-family: regform;
+    src: url(fonts/regform.ttf);
+  }
+
+  @font-face {
+    font-family: fontnav;
+    src: url(fonts/fontnav.ttf);
+}
+
+body {
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: fontnav;
+    
+}
+
+
+.navmain {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    right: 0px;
+    
+  }
+
+.title h1{
+    padding-top: 5%;
+    text-align: center;
+    font-family: fontnav;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(236, 156, 5);
+}
+
+.imghead {
+    padding-left: 240px;
+    position: absolute;
+    bottom: 15px; 
+  }
+
+.container {
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 43px;
+    background-color: orange;
+    background: linear-gradient(90deg, #fe8140,#fed04f);
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 50px;
+}
+
+
+.data {
+    border: 2px solid rgba(241, 169, 61, 0.747);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 50px;
+    font-family: regform;
+}
+
+.name {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.surname {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.login {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.email {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.password {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.passsword {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.points {
+   padding-top: 1%;
+   margin-bottom: 7%;
+   
+}
+
+.confirm {
+
+   position: relative;
+   margin-left: 215px;
+   border: 2px solid rgba(241, 169, 61, 0.747);
+   color: rgb(97, 97, 97);
+   padding: 4px 4px 4px 4px;
+   font-family: regform;
+   border-radius: 10px;
+   max-width: 100px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   transition: 190ms;
+   
+}
+
+.confirm:hover {
+    background-color: rgba(223, 216, 216, 0.692);
+}
+
+
+
+.label1 {
+    position: relative;
+    left: 175px;
+    bottom: 7px;
+    font-family: regform;
+    color: white;
+}
+
+.label2 {
+    position: relative;
+    left: 175px;
+    font-family: regform;
+    color: white;
+}
+
+
+.another {
+    font-family: regform;
+    font-size: 20px;
+    color: white;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: 125px;
+   
+}
+
+.google {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.twitter {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.dot1 {
+    border-radius: 5px;
+}
